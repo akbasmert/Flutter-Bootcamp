@@ -50,6 +50,9 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   int _counter = 0;
 
+  late int x; // Başına late ekleyerek x e daha sonra değer aktaracağım demektir.
+
+
   void _incrementCounter() {
     setState(() {
       // This call to setState tells the Flutter framework that something has
